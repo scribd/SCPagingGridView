@@ -28,6 +28,37 @@
 		950438D016409A6000BF33D4 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 950438C816409A6000BF33D4 /* SCAppDelegate.m */; };
 		9531DBDD1643068C0063629F /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DBDC1643068C0063629F /* SCViewController.m */; };
 		9531DBDE1643068C0063629F /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DBDC1643068C0063629F /* SCViewController.m */; };
+		9531DC40164335540063629F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950436F6163F25E800BF33D4 /* UIKit.framework */; };
+		9531DC41164335540063629F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950436F8163F25E800BF33D4 /* Foundation.framework */; };
+		9531DC42164335540063629F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950436FA163F25E800BF33D4 /* CoreGraphics.framework */; };
+		9531DC58164335910063629F /* SCViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 9531DBDB1643068C0063629F /* SCViewController.h */; };
+		9531DC59164335910063629F /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DBDC1643068C0063629F /* SCViewController.m */; };
+		9531DC5A164335910063629F /* SCSwizzle.h in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA7516409B6900BBB572 /* SCSwizzle.h */; };
+		9531DC5B164335910063629F /* SCSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA7616409B6900BBB572 /* SCSwizzle.m */; };
+		9531DC5C164335910063629F /* SCViewRecycler.h in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA7716409B6900BBB572 /* SCViewRecycler.h */; };
+		9531DC5D164335910063629F /* SCViewRecycler.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA7816409B6900BBB572 /* SCViewRecycler.m */; };
+		9531DC5E164335910063629F /* SCGridView.h in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA7D16409B8100BBB572 /* SCGridView.h */; };
+		9531DC5F164335910063629F /* SCGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA7E16409B8100BBB572 /* SCGridView.m */; };
+		9531DC60164335910063629F /* SCGridViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA7F16409B8100BBB572 /* SCGridViewController.h */; };
+		9531DC61164335910063629F /* SCGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA8016409B8100BBB572 /* SCGridViewController.m */; };
+		9531DC62164335910063629F /* SCGridViewDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA8116409B8100BBB572 /* SCGridViewDelegate.h */; };
+		9531DC63164335910063629F /* SCPageIndicatorProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA8616409B9400BBB572 /* SCPageIndicatorProtocol.h */; };
+		9531DC64164335910063629F /* SCPageIndicatorView.h in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA8716409B9400BBB572 /* SCPageIndicatorView.h */; };
+		9531DC65164335910063629F /* SCPageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA8816409B9400BBB572 /* SCPageIndicatorView.m */; };
+		9531DC66164335910063629F /* SCPageView.h in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA8916409B9400BBB572 /* SCPageView.h */; };
+		9531DC67164335910063629F /* SCPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA8A16409B9400BBB572 /* SCPageView.m */; };
+		9531DC68164335910063629F /* SCPageViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA8B16409B9400BBB572 /* SCPageViewController.h */; };
+		9531DC69164335910063629F /* SCPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA8C16409B9400BBB572 /* SCPageViewController.m */; };
+		9531DC6A164335910063629F /* SCPageViewDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA8D16409B9400BBB572 /* SCPageViewDelegate.h */; };
+		9531DC6B164335910063629F /* SCPagingGridViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA9416409BA400BBB572 /* SCPagingGridViewController.h */; };
+		9531DC6C164335910063629F /* SCPagingGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA9516409BA400BBB572 /* SCPagingGridViewController.m */; };
+		9531DC78164335E90063629F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9531DC6E164335E90063629F /* Default-568h@2x.png */; };
+		9531DC79164335E90063629F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9531DC6F164335E90063629F /* Default.png */; };
+		9531DC7A164335E90063629F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9531DC70164335E90063629F /* Default@2x.png */; };
+		9531DC7B164335E90063629F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9531DC71164335E90063629F /* InfoPlist.strings */; };
+		9531DC7C164335E90063629F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DC73164335E90063629F /* main.m */; };
+		9531DC7D164335E90063629F /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DC75164335E90063629F /* SCAppDelegate.m */; };
+		9531DC821643364A0063629F /* SCExampleGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DC811643364A0063629F /* SCExampleGridViewController.m */; };
 		95FFCA7916409B6900BBB572 /* SCSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA7616409B6900BBB572 /* SCSwizzle.m */; };
 		95FFCA7A16409B6900BBB572 /* SCSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA7616409B6900BBB572 /* SCSwizzle.m */; };
 		95FFCA7B16409B6900BBB572 /* SCViewRecycler.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA7816409B6900BBB572 /* SCViewRecycler.m */; };
@@ -77,6 +108,18 @@
 		950438CA16409A6000BF33D4 /* SCPagingDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCPagingDemo-Prefix.pch"; sourceTree = "<group>"; };
 		9531DBDB1643068C0063629F /* SCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCViewController.h; path = Source/Base/SCViewController.h; sourceTree = SOURCE_ROOT; };
 		9531DBDC1643068C0063629F /* SCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCViewController.m; path = Source/Base/SCViewController.m; sourceTree = SOURCE_ROOT; };
+		9531DC3E164335540063629F /* SCGridViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCGridViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9531DC6E164335E90063629F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9531DC6F164335E90063629F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9531DC70164335E90063629F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9531DC72164335E90063629F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9531DC73164335E90063629F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9531DC74164335E90063629F /* SCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		9531DC75164335E90063629F /* SCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		9531DC76164335E90063629F /* SCGridViewDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SCGridViewDemo-Info.plist"; sourceTree = "<group>"; };
+		9531DC77164335E90063629F /* SCGridViewDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCGridViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		9531DC801643364A0063629F /* SCExampleGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCExampleGridViewController.h; sourceTree = "<group>"; };
+		9531DC811643364A0063629F /* SCExampleGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCExampleGridViewController.m; sourceTree = "<group>"; };
 		95FFCA7516409B6900BBB572 /* SCSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSwizzle.h; path = Source/SCSwizzle.h; sourceTree = SOURCE_ROOT; };
 		95FFCA7616409B6900BBB572 /* SCSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSwizzle.m; path = Source/SCSwizzle.m; sourceTree = SOURCE_ROOT; };
 		95FFCA7716409B6900BBB572 /* SCViewRecycler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCViewRecycler.h; path = Source/SCViewRecycler.h; sourceTree = SOURCE_ROOT; };
@@ -125,6 +168,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9531DC3B164335540063629F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9531DC40164335540063629F /* UIKit.framework in Frameworks */,
+				9531DC41164335540063629F /* Foundation.framework in Frameworks */,
+				9531DC42164335540063629F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -143,6 +196,7 @@
 			children = (
 				950436F2163F25E800BF33D4 /* SCPagingGridView.app */,
 				950438301640968200BF33D4 /* SCPagingDemo.app */,
+				9531DC3E164335540063629F /* SCGridViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,6 +274,7 @@
 		9504384C164096BA00BF33D4 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				9531DC6D164335E90063629F /* SCGridViewDemo */,
 				950438C016409A6000BF33D4 /* SCPagingDemo */,
 				950438AB16409A4F00BF33D4 /* SCPagingGridDemo */,
 			);
@@ -293,6 +348,33 @@
 			name = Base;
 			sourceTree = "<group>";
 		};
+		9531DC6D164335E90063629F /* SCGridViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9531DC7F164335F40063629F /* Supporting Files */,
+				9531DC74164335E90063629F /* SCAppDelegate.h */,
+				9531DC75164335E90063629F /* SCAppDelegate.m */,
+				9531DC801643364A0063629F /* SCExampleGridViewController.h */,
+				9531DC811643364A0063629F /* SCExampleGridViewController.m */,
+			);
+			name = SCGridViewDemo;
+			path = Demos/SCGridViewDemo;
+			sourceTree = "<group>";
+		};
+		9531DC7F164335F40063629F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9531DC76164335E90063629F /* SCGridViewDemo-Info.plist */,
+				9531DC77164335E90063629F /* SCGridViewDemo-Prefix.pch */,
+				9531DC6E164335E90063629F /* Default-568h@2x.png */,
+				9531DC6F164335E90063629F /* Default.png */,
+				9531DC70164335E90063629F /* Default@2x.png */,
+				9531DC71164335E90063629F /* InfoPlist.strings */,
+				9531DC73164335E90063629F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -330,6 +412,23 @@
 			productReference = 950438301640968200BF33D4 /* SCPagingDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9531DC3D164335540063629F /* SCGridViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9531DC55164335540063629F /* Build configuration list for PBXNativeTarget "SCGridViewDemo" */;
+			buildPhases = (
+				9531DC3A164335540063629F /* Sources */,
+				9531DC3B164335540063629F /* Frameworks */,
+				9531DC3C164335540063629F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCGridViewDemo;
+			productName = SCGridViewDemo;
+			productReference = 9531DC3E164335540063629F /* SCGridViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -354,6 +453,7 @@
 			targets = (
 				950436F1163F25E800BF33D4 /* SCPagingGridDemo */,
 				9504382F1640968200BF33D4 /* SCPagingDemo */,
+				9531DC3D164335540063629F /* SCGridViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -378,6 +478,17 @@
 				950438CC16409A6000BF33D4 /* Default.png in Resources */,
 				950438CD16409A6000BF33D4 /* Default@2x.png in Resources */,
 				950438CE16409A6000BF33D4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9531DC3C164335540063629F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9531DC78164335E90063629F /* Default-568h@2x.png in Resources */,
+				9531DC79164335E90063629F /* Default.png in Resources */,
+				9531DC7A164335E90063629F /* Default@2x.png in Resources */,
+				9531DC7B164335E90063629F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +535,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9531DC3A164335540063629F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9531DC58164335910063629F /* SCViewController.h in Sources */,
+				9531DC59164335910063629F /* SCViewController.m in Sources */,
+				9531DC5A164335910063629F /* SCSwizzle.h in Sources */,
+				9531DC5B164335910063629F /* SCSwizzle.m in Sources */,
+				9531DC5C164335910063629F /* SCViewRecycler.h in Sources */,
+				9531DC5D164335910063629F /* SCViewRecycler.m in Sources */,
+				9531DC5E164335910063629F /* SCGridView.h in Sources */,
+				9531DC5F164335910063629F /* SCGridView.m in Sources */,
+				9531DC60164335910063629F /* SCGridViewController.h in Sources */,
+				9531DC61164335910063629F /* SCGridViewController.m in Sources */,
+				9531DC62164335910063629F /* SCGridViewDelegate.h in Sources */,
+				9531DC63164335910063629F /* SCPageIndicatorProtocol.h in Sources */,
+				9531DC64164335910063629F /* SCPageIndicatorView.h in Sources */,
+				9531DC65164335910063629F /* SCPageIndicatorView.m in Sources */,
+				9531DC66164335910063629F /* SCPageView.h in Sources */,
+				9531DC67164335910063629F /* SCPageView.m in Sources */,
+				9531DC68164335910063629F /* SCPageViewController.h in Sources */,
+				9531DC69164335910063629F /* SCPageViewController.m in Sources */,
+				9531DC6A164335910063629F /* SCPageViewDelegate.h in Sources */,
+				9531DC6B164335910063629F /* SCPagingGridViewController.h in Sources */,
+				9531DC6C164335910063629F /* SCPagingGridViewController.m in Sources */,
+				9531DC7C164335E90063629F /* main.m in Sources */,
+				9531DC7D164335E90063629F /* SCAppDelegate.m in Sources */,
+				9531DC821643364A0063629F /* SCExampleGridViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -439,6 +581,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				950438C516409A6000BF33D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9531DC71164335E90063629F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9531DC72164335E90063629F /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -546,6 +696,32 @@
 			};
 			name = Release;
 		};
+		9531DC56164335540063629F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demos/SCGridViewDemo/SCGridViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "Demos/SCGridViewDemo/SCGridViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9531DC57164335540063629F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demos/SCGridViewDemo/SCGridViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "Demos/SCGridViewDemo/SCGridViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -575,6 +751,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		9531DC55164335540063629F /* Build configuration list for PBXNativeTarget "SCGridViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9531DC56164335540063629F /* Debug */,
+				9531DC57164335540063629F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
