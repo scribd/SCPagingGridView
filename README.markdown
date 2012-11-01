@@ -6,14 +6,19 @@ SCPagingGridView is a collection of iOS UIViewController containers, views, & he
 Components
 ===
 
-SCPageViewController - A custom page view controller that supports both horizontal & vertical paging
+SCPageViewController
 ---
+A custom page view controller that supports both horizontal & vertical paging.
 
-SCGridView - A UIView sublcass that lays out it's children according to a given schema
+SCGridView
 ---
+A UIView sublcass that lays out it's children according to a given schema.
 
-SCPagingGridViewController - A view controller container that supports laying out a series of cells in pageable grid views
+SCPagingGridViewController
 ---
+A view controller container that supports laying out a series of cells in pageable grid views.
+
+Screen shot:
 ![iPad Example](http://static.scribd.com.s3.amazonaws.com/github/paging_gridview.png)
 
 SCViewRecycler
