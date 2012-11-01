@@ -90,11 +90,6 @@
 
 #pragma mark - Public Methods
 
-- (id)dataAtPosition:(NSUInteger)position {
-    //return [self.fetchedResultsController objectAtIndexPath:[NSIndexPath indexPathForRow:position inSection:0]];
-    return nil;
-}
-
 - (void)setSchema:(NSArray *)schema {
     _totalPageSizes = 0;
     NSMutableArray *sizes = [NSMutableArray arrayWithCapacity:[schema count]];

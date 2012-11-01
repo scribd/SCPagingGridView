@@ -14,10 +14,15 @@
 
 @property (nonatomic, strong, readonly) UIPanGestureRecognizer *panGesture;
 @property (nonatomic, strong, readonly) UITapGestureRecognizer *tapGesture;
+@property (nonatomic, strong, readonly) UIView *emptyView;
+@property (nonatomic, strong, readonly) UIView *filledView;
 
 @property (nonatomic, strong) UIColor *dotColor;
 @property (nonatomic, assign) CGSize dotSize;
 @property (nonatomic, assign) CGFloat dotPadding;
 @property (nonatomic, assign) CGFloat dotLineWidth;
+
+- (UIImage *)createEmptyImage;
+- (UIImage *)createFilledImage;
 
 @end

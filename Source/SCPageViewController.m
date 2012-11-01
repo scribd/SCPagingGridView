@@ -61,7 +61,7 @@
         SCPageIndicatorView *pageIndicator = self.pageIndicator;
         CGRect frame = CGRectMake(self.pageView.frame.origin.x, self.view.bounds.size.height - 44.0f, self.pageView.frame.size.width, 44.0f);
         if (!pageIndicator) {
-            pageIndicator = [[SCPageIndicatorView alloc] initWithFrame:frame];
+            pageIndicator = [self createPageIndicatorWithFrame:frame];
             pageIndicator.pageIndicatorDelegate = self;
             pageIndicator.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
             [self configurePageIndicator:pageIndicator];
@@ -89,6 +89,10 @@
         frame.size.height = self.view.bounds.size.height;
         self.pageView.frame = frame;
     }
+}
+
+- (SCPageIndicatorView *)createPageIndicatorWithFrame:(CGRect)frame {
+    return [[SCPageIndicatorView alloc] initWithFrame:frame];
 }
 
 - (void)configurePageIndicator:(SCPageIndicatorView *)pageIndicatorView {

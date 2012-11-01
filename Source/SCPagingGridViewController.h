@@ -17,10 +17,6 @@
 @property (nonatomic, assign) NSUInteger maxNumberOfPages;
 @property (nonatomic, assign, readonly) NSUInteger totalPageSizes;
 
-#pragma mark - Database
-
-- (id)dataAtPosition:(NSUInteger)position;
-
 #pragma mark - Calculations
 
 - (NSUInteger)offsetForPageNumber:(NSUInteger)pageNumber;

@@ -19,6 +19,7 @@
 
 - (void)showPageIndicator;
 - (void)hidePageIndicator;
+- (SCPageIndicatorView *)createPageIndicatorWithFrame:(CGRect)frame;
 - (void)configurePageIndicator:(SCPageIndicatorView *)pageIndicatorView;
 
 - (UIViewController *)controllerAtPageNumber:(NSUInteger)pageNumber;
