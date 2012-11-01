@@ -27,6 +27,8 @@
 		950438CE16409A6000BF33D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 950438C416409A6000BF33D4 /* InfoPlist.strings */; };
 		950438CF16409A6000BF33D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 950438C616409A6000BF33D4 /* main.m */; };
 		950438D016409A6000BF33D4 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 950438C816409A6000BF33D4 /* SCAppDelegate.m */; };
+		95CE7DAD1641F5D7007D90E7 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CE7DAC1641F5D7007D90E7 /* SCViewController.m */; };
+		95CE7DAE1641F5D7007D90E7 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CE7DAC1641F5D7007D90E7 /* SCViewController.m */; };
 		95FFCA7916409B6900BBB572 /* SCSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA7616409B6900BBB572 /* SCSwizzle.m */; };
 		95FFCA7A16409B6900BBB572 /* SCSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA7616409B6900BBB572 /* SCSwizzle.m */; };
 		95FFCA7B16409B6900BBB572 /* SCViewRecycler.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFCA7816409B6900BBB572 /* SCViewRecycler.m */; };
@@ -74,6 +76,8 @@
 		950438C816409A6000BF33D4 /* SCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
 		950438C916409A6000BF33D4 /* SCPagingDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SCPagingDemo-Info.plist"; sourceTree = "<group>"; };
 		950438CA16409A6000BF33D4 /* SCPagingDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCPagingDemo-Prefix.pch"; sourceTree = "<group>"; };
+		95CE7DAB1641F5D7007D90E7 /* SCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCViewController.h; path = Source/SCViewController.h; sourceTree = SOURCE_ROOT; };
+		95CE7DAC1641F5D7007D90E7 /* SCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCViewController.m; path = Source/SCViewController.m; sourceTree = SOURCE_ROOT; };
 		95FFCA7516409B6900BBB572 /* SCSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSwizzle.h; path = Source/SCSwizzle.h; sourceTree = SOURCE_ROOT; };
 		95FFCA7616409B6900BBB572 /* SCSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSwizzle.m; path = Source/SCSwizzle.m; sourceTree = SOURCE_ROOT; };
 		95FFCA7716409B6900BBB572 /* SCViewRecycler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCViewRecycler.h; path = Source/SCViewRecycler.h; sourceTree = SOURCE_ROOT; };
@@ -157,6 +161,7 @@
 		9504371D163F272F00BF33D4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				95CE7DA91641F5BD007D90E7 /* Base */,
 				9504373A163F29EA00BF33D4 /* Helpers */,
 				9504373C163F2A8800BF33D4 /* Grid View */,
 				9504373B163F2A7B00BF33D4 /* Page View */,
@@ -280,6 +285,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		95CE7DA91641F5BD007D90E7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				95CE7DAB1641F5D7007D90E7 /* SCViewController.h */,
+				95CE7DAC1641F5D7007D90E7 /* SCViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -387,6 +401,7 @@
 				95FFCA9016409B9400BBB572 /* SCPageView.m in Sources */,
 				95FFCA9216409B9400BBB572 /* SCPageViewController.m in Sources */,
 				95FFCA9616409BA400BBB572 /* SCPagingGridViewController.m in Sources */,
+				95CE7DAD1641F5D7007D90E7 /* SCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +422,7 @@
 				95FFCA9A16409F4000BBB572 /* SCDemoPageViewController.m in Sources */,
 				95FFCAB11640A16100BBB572 /* SCPageOneViewController.m in Sources */,
 				95FFCAB41640A1C400BBB572 /* SCPageTwoViewController.m in Sources */,
+				95CE7DAE1641F5D7007D90E7 /* SCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
