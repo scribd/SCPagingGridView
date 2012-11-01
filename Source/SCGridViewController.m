@@ -21,16 +21,6 @@
 
 #pragma mark - UIViewController
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
-    BOOL result = NO;
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        result = YES;
-    } else {
-        result = toInterfaceOrientation != UIInterfaceOrientationPortraitUpsideDown;
-    }
-    return result;
-}
-
 - (void)loadView {
     SCGridView *view = [[SCGridView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;

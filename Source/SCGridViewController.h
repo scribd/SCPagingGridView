@@ -7,11 +7,11 @@
 //
 
 #import "SCGridViewDelegate.h"
-#import <UIKit/UIKit.h>
+#import "SCViewController.h"
 
 @class SCGridView;
 
-@interface SCGridViewController : UIViewController<SCGridViewDelegate>
+@interface SCGridViewController : SCViewController<SCGridViewDelegate>
 
 @property (nonatomic, weak, readonly) SCGridView *gridView;
 

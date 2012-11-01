@@ -6,13 +6,12 @@
 //  Copyright (c) 2012 Jesse Andersen. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 #import "SCPageViewDelegate.h"
+#import "SCViewController.h"
 
 @class SCPageIndicatorView;
 
-@interface SCPageViewController : UIViewController<UIScrollViewDelegate, SCPageViewDelegate>
+@interface SCPageViewController : SCViewController<UIScrollViewDelegate, SCPageViewDelegate>
 
 @property (nonatomic, weak, readonly) SCPageView *pageView;
 @property (nonatomic, weak, readonly) SCPageIndicatorView *pageIndicator;
