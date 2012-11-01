@@ -9,7 +9,7 @@ A custom page view controller that supports both horizontal & vertical paging.
 
 SCGridView
 ---
-A UIView sublcass that lays out it's children according to a given schema.
+A UIView sublcass that lays out its children according to a given schema.
 
 Screen shot:
 
