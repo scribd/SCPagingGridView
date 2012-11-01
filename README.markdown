@@ -1,21 +1,29 @@
 SCPagingGridView
 ===
 
-SCPagingGridView is a collection of iOS UIViewController containers.
+SCPagingGridView is a collection of iOS UIViewController containers, views, & helpers.
 
 Components
+===
+
+SCPageViewController - A custom page view controller that supports both horizontal & vertical paging
 ---
 
-* SCPageViewController - A page view controller that supports both horizontal & vertical paging
-* SCGridView - A UIView sublcass that lays out it's children according to a given schema
-* SCPagingGridViewController - A view controller container that supports laying out a series of cells in pageable grid views
+SCGridView - A UIView sublcass that lays out it's children according to a given schema
+---
+
+SCPagingGridViewController - A view controller container that supports laying out a series of cells in pageable grid views
+---
+![iPad Example](http://static.scribd.com.s3.amazonaws.com/github/paging_gridview.png)
+
+SCViewRecycler
+---
+A class that recycles views. It is similar to UITableView's reusable cells system, but can be used for any view type.
 
 Usage
 ---
 
-The easiest way to use SCPagingGridView is to copy the ``` source/ ``` files into your XCode Project.
-
-Alternatively, you can setup a git submodule and reference the files in your Xcode project. I prefer this method as it enables you to receive bugfixes/updates for the project.
+To use SCPagingGridView, add the ``` source/ ``` files into your XCode Project. The preferred method is to setup a git submodule and reference the files in your Xcode project. ` git submodule add https://github.com/scribd/SCPagingGridView.git SCPagingGridView `
 
 Requirements
 ---
@@ -42,9 +50,6 @@ License
  
  The above copyright notice and this permission notice shall be included in all
  copies or substantial portions of the Software.
- 
- If you happen to meet one of the copyright holders in a bar you are obligated
- to buy them one pint of beer.
  
  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
