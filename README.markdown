@@ -1,10 +1,7 @@
 SCPagingGridView
 ===
 
-SCPagingGridView is a collection of iOS UIViewController containers, views, & helpers.
-
-Components
-===
+SCPagingGridView is a collection of iOS UIViewController containers, views, & helpers. The project is comprised of the following components:
 
 SCPageViewController
 ---
@@ -19,7 +16,7 @@ SCPagingGridViewController
 A view controller container that supports laying out a series of cells in pageable grid views.
 
 Screen shot:
-![iPad Example](http://static.scribd.com.s3.amazonaws.com/github/paging_gridview.png)
+![iPhone Example](http://static.scribd.com.s3.amazonaws.com/github/paging_gridview_iphone.png)
 
 SCViewRecycler
 ---
