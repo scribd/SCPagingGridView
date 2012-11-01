@@ -16,7 +16,7 @@ SCPagingGridViewController
 A view controller container that supports laying out a series of cells in pageable grid views.
 
 Screen shot:
-![iPhone Example](http://static.scribd.com.s3.amazonaws.com/github/paging_gridview_iphone.png)
+<img src="http://static.scribd.com.s3.amazonaws.com/github/paging_gridview_iphone.png" height="480" width="320" alt="iPhone example" />
 
 SCViewRecycler
 ---
