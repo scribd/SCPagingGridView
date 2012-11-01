@@ -32,6 +32,16 @@
 
 #pragma mark - UIViewController
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+    BOOL result = NO;
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        result = YES;
+    } else {
+        result = toInterfaceOrientation != UIInterfaceOrientationPortraitUpsideDown;
+    }
+    return result;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.pageView.direction = SCPagingDirectionHorizontal;
@@ -55,8 +65,6 @@
 }
 
 - (NSInteger)numberOfCellsInPageView:(SCPageView *)pageView {
-//    id <NSFetchedResultsSectionInfo> sectionInfo = [[self.fetchedResultsController sections] objectAtIndex:0];
-//    return [sectionInfo numberOfObjects];
     return 0;
 }
 

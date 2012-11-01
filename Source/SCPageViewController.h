@@ -9,11 +9,10 @@
 #import <UIKit/UIKit.h>
 
 #import "SCPageViewDelegate.h"
-#import "SCViewController.h"
 
 @class SCPageIndicatorView;
 
-@interface SCPageViewController : SCViewController<UIScrollViewDelegate, SCPageViewDelegate>
+@interface SCPageViewController : UIViewController<UIScrollViewDelegate, SCPageViewDelegate>
 
 @property (nonatomic, weak, readonly) SCPageView *pageView;
 @property (nonatomic, weak, readonly) SCPageIndicatorView *pageIndicator;
