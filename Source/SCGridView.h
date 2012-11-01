@@ -27,14 +27,41 @@
 
 @interface SCGridView : UIView
 
+/* The schema determines how the GridView will be laid out.
+ *
+ * This property must be set to an array of integers. Each integer in the array
+ * constitutes a new row in the grid and the value of the integer decides the number
+ * of columns in that row.
+ *
+ * Example 1:
+ *     self.schema =  @[@(2), @(2)];
+ * This creates a gridView with 2 rows. Each row has 2 columns.
+ *
+ * Example 2:
+ *     self.schema =  @[@(3), @(2), @(5)];
+ * This creates a gridView with 3 rows. The first row has 3 columns. The second row
+ * has 2 columns. The third row has 5 columns.
+ *
+ */
 @property (nonatomic, strong) NSArray *schema;
+
 @property (nonatomic, weak) id<SCGridViewDelegate>delegate;
+
+// The amount of space between each row
 @property (nonatomic, assign) CGFloat rowSpacing;
+
+// The amount of space between each column
 @property (nonatomic, assign) CGFloat colSpacing;
+
+// An array of UIViews. The views will be laid out starting at the top left of the grid
+// and then right & down. Alternatively, instead of setting cells directly,
+// the gridView delegate can provide cells.
 @property (nonatomic, strong) NSArray *cells;
 
-- (void)setSchema:(NSArray *)schema;
+// Force the gridview to ask its delegate for new cells, if it has a delegate.
 - (void)reloadData;
+
+// The total number of cells in the gridview
 - (NSUInteger)size;
 
 @end
