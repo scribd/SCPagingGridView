@@ -13,7 +13,7 @@ A UIView sublcass that lays out it's children according to a given schema.
 
 Screen shot:
 
-<img src="http://static.scribd.com.s3.amazonaws.com/github/gridview.png" height="480" width="320" alt="iPhone example" />
+<img src="http://static.scribd.com.s3.amazonaws.com/github/gridview.png" height="568" width="320" alt="iPhone example" />
 
 Sample Code:
 
@@ -38,7 +38,7 @@ Sample Code:
     [self.view addSubview:grid];
     
     NSMutableArray *cells = [[NSMutableArray alloc] initWithCapacity:grid.size];
-    
+
     UILabel *label = [[UILabel alloc] init];
     label.textAlignment = UITextAlignmentCenter;
     label.text = @"1st cell";
