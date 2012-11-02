@@ -27,7 +27,6 @@
 
 @property (nonatomic, strong) UIView *emptyView;
 @property (nonatomic, strong) UIView *filledView;
-@property (nonatomic, strong) UILabel *titleLabel;
 @property (nonatomic, strong) UIPanGestureRecognizer *panGesture;
 @property (nonatomic, strong) UITapGestureRecognizer *tapGesture;
 @property (nonatomic, assign) CGSize dotSizeWithPadding;
@@ -76,18 +75,7 @@
         _dotPadding = 3.0f;
         _dotLineWidth = 1.0f;
         self.backgroundColor = [UIColor colorWithWhite:0.2f alpha:1.0f];
-        
-//        UIView *border = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, self.bounds.size.width, 1.0f)];
-//        border.backgroundColor = [UIColor whiteColor];
-//        border.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin;
-//        [self addSubview:border];
-
-//        _titleLabel = [[UILabel alloc] init];
-//        _titleLabel.font = [UIFont fontWithName:@"ProximaNova-Regular" size:13.0f];
-//        _titleLabel.text = NSLocalizedString(@"Page", nil);
-//        _titleLabel.backgroundColor = [UIColor clearColor];
-//        [self addSubview:_titleLabel];
-        
+                
         _emptyView = [[UIView alloc] initWithFrame:self.bounds];
         [self addSubview:_emptyView];
         
@@ -114,12 +102,7 @@
     CGSize size = CGSizeMake(self.dotSizeWithPadding.width * self.numberOfPages, _dotSize.height);
     CGPoint origin = CGPointMake(10.0f, floorf((self.bounds.size.height - size.height)/2.0f));
     self.emptyView.frame = CGRectMake(origin.x, origin.y, size.width, size.height);
-    
-//    CGRect frame = self.titleLabel.frame;
-//    frame.origin.x = self.emptyView.frame.origin.x + self.emptyView.frame.size.width + 15.0f;
-//    frame.origin.y = floorf((self.bounds.size.height - frame.size.height)/2.0f);
-//    self.titleLabel.frame = frame;
-    
+        
     if (self.panGesture.state != UIGestureRecognizerStateBegan && self.panGesture.state != UIGestureRecognizerStateChanged) {
         [self _placeCurrentPageIndicator:NO];
     }
@@ -129,7 +112,6 @@
     if (numberOfPages != _numberOfPages) {
         _numberOfPages = numberOfPages;
         self.emptyView.hidden = _numberOfPages <= 1;
-//        [self _updatePageLabel];
         [self setNeedsLayout];
     }
 }
@@ -140,7 +122,6 @@
         if (self.panGesture.state != UIGestureRecognizerStateBegan && self.panGesture.state != UIGestureRecognizerStateChanged) {
             [self _placeCurrentPageIndicator:YES];
         }
-//        [self _updatePageLabel];
     }
 }
 
@@ -149,11 +130,6 @@
         self.filledView.frame = CGRectMake(self.currentPage * self.dotSizeWithPadding.width, 0.0f, self.dotSizeWithPadding.width, _dotSize.height);
     }];
 }
-
-//- (void)_updatePageLabel {
-//    self.titleLabel.text = [NSString stringWithFormat:@"%@ %d %@ %d", NSLocalizedString(@"Page", nil), self.currentPage + 1, NSLocalizedString(@"of", nil), self.numberOfPages];
-//    [self.titleLabel sizeToFit];
-//}
 
 #pragma mark - Dot Config
 
@@ -260,7 +236,6 @@
                 if (page != _lastDispatchedPage) {
                     _lastDispatchedPage = page;
                     _currentPage = page;
-//                    [self _updatePageLabel];
                     [self.pageIndicatorDelegate requestPageChangeTo:page panning:YES];
                 }
             }

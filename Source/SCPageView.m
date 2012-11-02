@@ -640,9 +640,8 @@ static CGFloat const delayIncrementAmount = 0.025f;
         
         // make the header view of the active page stickyickyicky
         if (self.activePage.headerView) {
+            CGFloat origin = (offset > 0) && (!self.nextPage || offset <= (activePageSize - selfBoundsSize)) ? fabsf(offset) : 0.0f;
             CGRect frame = self.activePage.headerView.frame;
-            CGFloat origin = (self.direction == SCPagingDirectionVertical) ? frame.origin.y : frame.origin.x;
-            origin = (offset > 0) && (!self.nextPage || offset <= (activePageSize - selfBoundsSize)) ? fabsf(offset) : 0.0f;
             frame.origin = (self.direction == SCPagingDirectionVertical) ? CGPointMake(0.0f, origin) : CGPointMake(origin, 0.0f);
             self.activePage.headerView.frame = frame;
         }
